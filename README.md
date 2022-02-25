@@ -1,5 +1,7 @@
 # Bin2Dec
 
+[Test here](https://bin10dec.netlify.app)
+
 Made for the challenge [App Ideas](https://github.com/florinpop17/app-ideas)
 
 **Tier:** 1-Beginner
