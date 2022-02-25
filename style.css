@@ -1,20 +1,19 @@
-* {margin: 0; padding: 0;}  /* Remove margins and padding from the body element to vertically center elements with a fixed height. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {margin: 0; padding: 0; font-family: 'ZCOOL QingKe HuangYou', cursive;}
 
 body {
-    background: rgb(2, 143, 61);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #333;
+    background: rgb(0, 0, 0);
 }
+
 main {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px;
+    width: auto;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.109);
     padding: 30px;
     border-radius: 20px;
     display: flex;
@@ -24,37 +23,35 @@ main {
 }
 
 #titulo {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
-    color: #333;
-    padding: 10px;
+    color: #ffffff;
 }
 
 .btn {
+    height: auto;
+    width: 100px;
+    border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
     color: #333;
-    padding: 10px;
-    background-color: rgb(0, 192, 90);
+    /*padding: 10px;*/
+    background-color: #ffffff;
 }
 
 .btn:hover {
-    background-color: rgb(0, 170, 70);
+    background-color: #c8c8c8;
 }
 
-#copy {
-    background-color: rgba(148, 200, 151, 0.7);
-}
-
-#copy:hover {
-    background-color: rgba(99, 206, 105, 0.9);
+#inputButton {
+    display: flex;
+    flex-direction: row;
 }
 
 #input {
     width: 250px;
-    height: 30px;
+    height: 20px;
     border-radius: 5px;
-    border: 1px solid #333;
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
@@ -62,22 +59,23 @@ main {
 }
 
 #result {
+    border-radius: 5px;
+    padding: 10px;
     width: 250px;
-    height: 30px;
+    height: 20px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: #333;
-    padding: 10px;
-    background-color: rgba(148, 200, 151, 0.7);
+    background-color: #ffffff;
 }
 
 #result:hover {
-    background-color: rgba(99, 206, 105, 0.9);
+    background-color: #c8c8c8;
 }
 
 #resultado {
     display: flex;
-    background-color: rgba(148, 200, 151, 0.7);
+    justify-content: center;
     user-select: none;
 }

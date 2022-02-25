@@ -16,7 +16,6 @@ function verifyInput(input) {
 }
 
 function convert(input) {
-    console.log(parseInt(input, 2))
     return parseInt(input, 2)
 }
 
