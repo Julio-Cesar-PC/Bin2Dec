@@ -37,6 +37,7 @@ main {
     background-color: #202020;
     border: 2px #22b455;
     border-style: solid;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -74,6 +75,7 @@ main {
     text-align: center;
     color: #22b455;
     background-color: #202020;
+    cursor: pointer;
 }
 
 #result:hover {
