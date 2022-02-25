@@ -1,4 +1,4 @@
-# Bin10Dec
+# Bin2Dec
 
 [Test here](https://bin10dec.netlify.app)
 
