@@ -3,7 +3,7 @@
 * {margin: 0; padding: 0; font-family: 'ZCOOL QingKe HuangYou', cursive;}
 
 body {
-    background: rgb(0, 0, 0);
+    background: #020204;
 }
 
 main {
@@ -13,9 +13,6 @@ main {
     transform: translate(-50%, -50%);
     width: auto;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.109);
-    padding: 30px;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -25,7 +22,8 @@ main {
 #titulo {
     font-size: 50px;
     font-weight: bold;
-    color: #ffffff;
+    color: #22b455;
+    text-shadow: 0 0 8px #22b455;
 }
 
 .btn {
@@ -34,13 +32,15 @@ main {
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: #22b455;
     /*padding: 10px;*/
-    background-color: #ffffff;
+    background-color: #202020;
+    border: 2px #22b455;
+    border-style: solid;
 }
 
 .btn:hover {
-    background-color: #c8c8c8;
+    background-color: #204829;
 }
 
 #inputButton {
@@ -55,7 +55,13 @@ main {
     padding: 10px;
     font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: #22b455;
+    background-color: #202020;
+    border: none
+}
+
+#input:hover {
+    background-color: #204829;
 }
 
 #result {
@@ -66,12 +72,12 @@ main {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    color: #333;
-    background-color: #ffffff;
+    color: #22b455;
+    background-color: #202020;
 }
 
 #result:hover {
-    background-color: #c8c8c8;
+    background-color: #204829;
 }
 
 #resultado {
